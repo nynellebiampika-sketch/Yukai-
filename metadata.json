@@ -1,0 +1,6 @@
+{
+  "name": "Yukai — Hidden Realms of Kyoto",
+  "description": "A five-chapter night walk up a Kyoto mountain temple, rendered live in WebGL with ambient sanctuary atmosphere, Japanese editorial typography, and interactive stillness.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
