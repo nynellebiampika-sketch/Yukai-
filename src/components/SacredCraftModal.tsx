@@ -21,7 +21,7 @@ export const SacredCraftModal: React.FC<SacredCraftModalProps> = ({ lesson, onCl
           type="button"
           className="zen-modal-close"
           onClick={onClose}
-          aria-label="Close chapter meditation"
+          aria-label="Fermer la méditation du chapitre"
           data-cursor
         >
           <svg viewBox="0 0 16 16" fill="none" width="14" height="14">
@@ -31,7 +31,7 @@ export const SacredCraftModal: React.FC<SacredCraftModalProps> = ({ lesson, onCl
 
         <div className="flex items-center gap-3 text-xs tracking-widest text-[#aab4ad] uppercase mb-4">
           <span className="w-1.5 h-1.5 rounded-full bg-[#e0231c]" />
-          <span>Chapter Walk {lesson.num}</span>
+          <span>Marche du Chapitre {lesson.num}</span>
           <span className="text-[#78837c]">/</span>
           <span className="text-[#78837c] font-mono">{lesson.duration}</span>
         </div>
@@ -64,7 +64,7 @@ export const SacredCraftModal: React.FC<SacredCraftModalProps> = ({ lesson, onCl
 
             <div className="space-y-2 border-t border-[rgba(223,231,224,0.08)] pt-4">
               <div className="text-[10px] uppercase tracking-widest text-[#78837c] mb-2">
-                Meditation Threads
+                Fils de méditation
               </div>
               {lesson.details.map((d, idx) => (
                 <div key={idx} className="flex items-baseline gap-2 text-xs text-[#aab4ad]">

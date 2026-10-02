@@ -96,7 +96,7 @@ export const Preloader: React.FC<PreloaderProps> = ({ onLoaded }) => {
           <i id="pre-fill" style={{ right: `${100 - progress}%` }} />
         </div>
         <div className="pre-meta">
-          <span>Raising the mountain temple</span>
+          <span>Élévation du temple de montagne</span>
           <b>
             <span id="pre-pct">{progress}</span>%
           </b>

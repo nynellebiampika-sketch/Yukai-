@@ -27,13 +27,12 @@ export const FooterSection: React.FC<FooterSectionProps> = ({ onNavigate }) => {
             <path d="M5 13h34M9 18.4h26M22 8.5v27" stroke="#dfe7e0" strokeWidth="1.5" />
           </svg>
           <p>
-            A five-chapter night walk through a Kyoto mountain temple. Three illustrated garden field notes sit
-            inside a live Three.js sanctuary.
+            Une marche nocturne en cinq chapitres à travers un temple de montagne à Kyoto. Trois carnets de terrain illustrés prennent vie au cœur d’un sanctuaire Three.js en direct.
           </p>
         </div>
 
         <div data-rv="up">
-          <h4>Chapters</h4>
+          <h4>Chapitres</h4>
           <ul>
             <li>
               <a
@@ -44,7 +43,7 @@ export const FooterSection: React.FC<FooterSectionProps> = ({ onNavigate }) => {
                   onNavigate('gate');
                 }}
               >
-                The Sanmon
+                Le Sanmon
               </a>
             </li>
             <li>
@@ -56,7 +55,7 @@ export const FooterSection: React.FC<FooterSectionProps> = ({ onNavigate }) => {
                   onNavigate('pathways');
                 }}
               >
-                Still Gardens
+                Jardins Immobiles
               </a>
             </li>
             <li>
@@ -68,7 +67,7 @@ export const FooterSection: React.FC<FooterSectionProps> = ({ onNavigate }) => {
                   onNavigate('lessons');
                 }}
               >
-                Sacred Craft
+                Artisanat Sacré
               </a>
             </li>
             <li>
@@ -80,14 +79,14 @@ export const FooterSection: React.FC<FooterSectionProps> = ({ onNavigate }) => {
                   onNavigate('eternity');
                 }}
               >
-                Afterlight
+                Lueur d’Après
               </a>
             </li>
           </ul>
         </div>
 
         <div data-rv="up">
-          <h4>Practice</h4>
+          <h4>Pratique</h4>
           <ul>
             <li>
               <a
@@ -98,7 +97,7 @@ export const FooterSection: React.FC<FooterSectionProps> = ({ onNavigate }) => {
                   onNavigate('lessons');
                 }}
               >
-                Borrowed scenery
+                Paysage emprunté
               </a>
             </li>
             <li>
@@ -110,7 +109,7 @@ export const FooterSection: React.FC<FooterSectionProps> = ({ onNavigate }) => {
                   onNavigate('lessons');
                 }}
               >
-                Lantern light
+                Lueur de lanterne
               </a>
             </li>
             <li>
@@ -122,7 +121,7 @@ export const FooterSection: React.FC<FooterSectionProps> = ({ onNavigate }) => {
                   onNavigate('lessons');
                 }}
               >
-                Charred cypress
+                Cyprès calciné
               </a>
             </li>
             <li>
@@ -134,14 +133,14 @@ export const FooterSection: React.FC<FooterSectionProps> = ({ onNavigate }) => {
                   onNavigate('lessons');
                 }}
               >
-                Raked gravel
+                Gravier ratissé
               </a>
             </li>
           </ul>
         </div>
 
         <div data-rv="up">
-          <h4>Elsewhere</h4>
+          <h4>Ailleurs</h4>
           <ul>
             <li>
               <a
@@ -164,7 +163,7 @@ export const FooterSection: React.FC<FooterSectionProps> = ({ onNavigate }) => {
                   onNavigate('top');
                 }}
               >
-                Field notes
+                Carnets de terrain
               </a>
             </li>
             <li>

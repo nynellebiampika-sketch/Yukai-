@@ -27,7 +27,7 @@ export const AfterlightSection: React.FC<AfterlightSectionProps> = ({ onRestart 
       </div>
 
       <div className="eyebrow" data-rv="fade">
-        <span className="dot" /> Chapter 04 — Afterlight
+        <span className="dot" /> Chapitre 04 — Lueur d’Après
       </div>
 
       <h2
@@ -35,13 +35,13 @@ export const AfterlightSection: React.FC<AfterlightSectionProps> = ({ onRestart 
         style={{ fontSize: 'clamp(56px, 9vw, 150px)', letterSpacing: '-0.04em' }}
       >
         <span className="mask-line">
-          <span>Afterlight</span>
+          <span>Lueur d’après</span>
         </span>
       </h2>
 
       <p className="body-lg" data-rv="up">
-        The gate does not close behind you. Take the walk whenever the noise gets loud: it is always the same path,
-        and never the same light.
+        La porte ne se referme pas derrière vous. Reprenez cette marche dès que le bruit du monde s’intensifie : c’est
+        toujours le même chemin, et jamais la même lumière.
       </p>
 
       <a
@@ -55,14 +55,14 @@ export const AfterlightSection: React.FC<AfterlightSectionProps> = ({ onRestart 
         }}
       >
         <i />
-        <span>Begin the walk</span>
+        <span>Commencer la marche</span>
         <svg viewBox="0 0 14 14" fill="none" width="13" height="13">
           <path d="M3 11 11 3M5 3h6v6" stroke="#dfe7e0" strokeWidth="1.3" />
         </svg>
       </a>
 
       <div className="fin-v" aria-hidden="true">
-        <span>Afterlight</span>
+        <span>Lueur d’après</span>
       </div>
     </section>
   );

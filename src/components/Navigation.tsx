@@ -44,9 +44,9 @@ export const Navigation: React.FC<NavigationProps> = ({ activeSection, onNavigat
 
   const navItems = [
     { id: 'gate', label: 'Temples', kanji: '伽藍' },
-    { id: 'pathways', label: 'Gardens', kanji: '庭園' },
-    { id: 'lessons', label: 'Rituals', kanji: '神事' },
-    { id: 'eternity', label: 'Afterlight', kanji: '残光' },
+    { id: 'pathways', label: 'Jardins', kanji: '庭園' },
+    { id: 'lessons', label: 'Rituels', kanji: '神事' },
+    { id: 'eternity', label: "Lueur d'Après", kanji: '残光' },
   ];
 
   return (
@@ -64,7 +64,7 @@ export const Navigation: React.FC<NavigationProps> = ({ activeSection, onNavigat
         </svg>
         <span className="brand-tx">
           <b>YUKAI</b>
-          <i>HIDDEN REALMS OF KYOTO</i>
+          <i>ROYAUMES SECRETS DE KYOTO</i>
         </span>
       </a>
 
@@ -87,8 +87,8 @@ export const Navigation: React.FC<NavigationProps> = ({ activeSection, onNavigat
           onClick={toggleSound}
           className={`sound-btn ${!isMuted ? 'is-active' : ''}`}
           data-cursor
-          aria-label={isMuted ? 'Enable temple ambient sound' : 'Mute sound'}
-          title={isMuted ? 'Enable temple ambient sound' : 'Mute sound'}
+          aria-label={isMuted ? 'Activer le son ambiant du temple' : 'Couper le son'}
+          title={isMuted ? 'Activer le son ambiant du temple' : 'Couper le son'}
         >
           <div className={`sound-waves ${!isMuted ? 'active' : ''}`}>
             <span style={{ height: isMuted ? '3px' : undefined }} />
@@ -102,7 +102,7 @@ export const Navigation: React.FC<NavigationProps> = ({ activeSection, onNavigat
       <button
         className={`nav-burger ${isMenuOpen ? 'on' : ''}`}
         id="burger"
-        aria-label="Toggle navigation menu"
+        aria-label="Menu de navigation"
         data-cursor
         onClick={toggleMobileMenu}
       >

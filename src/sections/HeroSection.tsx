@@ -6,10 +6,10 @@ interface HeroSectionProps {
 
 export const HeroSection: React.FC<HeroSectionProps> = ({ onChipClick }) => {
   const chips = [
-    { id: 'gate', num: '01', title: 'Thresholds', desc: 'Discover the hidden gates that open on to deeper paths.' },
-    { id: 'pathways', num: '02', title: 'Still Gardens', desc: 'Witness the courts where silence gently unfolds.' },
-    { id: 'lessons', num: '03', title: 'Sacred Craft', desc: 'Embrace the hands and heritage that shape devotion.' },
-    { id: 'eternity', num: '04', title: 'Night Rituals', desc: 'Explore the rites that awaken when the day is done.' },
+    { id: 'gate', num: '01', title: 'Seuils', desc: 'Découvrez les portes cachées qui ouvrent sur des sentiers plus profonds.' },
+    { id: 'pathways', num: '02', title: 'Jardins Immobiles', desc: 'Contemplez les cours où le silence se déploie paisiblement.' },
+    { id: 'lessons', num: '03', title: 'Artisanat Sacré', desc: 'Embrassez les mains et l’héritage qui façonnent la dévotion.' },
+    { id: 'eternity', num: '04', title: 'Rituels Nocturnes', desc: 'Explorez les rites qui s’éveillent une fois le jour achevé.' },
   ];
 
   return (
@@ -32,21 +32,21 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onChipClick }) => {
 
       <div className="hero-top">
         <div className="eyebrow" data-rv="fade">
-          <span className="dot" /> Chapter 00 — The Hidden Gate
+          <span className="dot" /> Chapitre 00 — La Porte Cachée
         </div>
         <h1 className="display h-hero">
           <span className="mask-line">
-            <span>Where stillness</span>
+            <span>Où le calme</span>
           </span>
           <span className="mask-line">
-            <span>reveals the</span>
+            <span>révèle</span>
           </span>
           <span className="mask-line">
-            <span>unseen.</span>
+            <span>l’invisible.</span>
           </span>
         </h1>
         <p className="hero-sub body" data-rv="up">
-          Enter Kyoto through its quiet thresholds, where ritual, craft, and memory shape the path.
+          Pénétrez dans Kyoto à travers ses seuils silencieux, où rituel, artisanat et mémoire dessinent le chemin.
         </p>
       </div>
 
@@ -54,7 +54,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onChipClick }) => {
 
       <div className="hero-foot">
         <div className="hero-cue" data-rv="fade">
-          <span>Scroll to enter</span>
+          <span>Faites défiler pour entrer</span>
           <span className="track">
             <i />
           </span>
@@ -87,7 +87,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onChipClick }) => {
         data-view="3"
         data-rv="fade"
         data-cursor
-        aria-label="Preview: Sanmon, before the bell"
+        aria-label="Aperçu : Sanmon, avant la cloche"
         onClick={(e) => {
           e.preventDefault();
           onChipClick('pathways');
@@ -101,7 +101,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onChipClick }) => {
         </span>
         <span className="peek-cap">
           <b className="jp">山門</b>
-          <i>Sanmon — before the bell</i>
+          <i>Sanmon — avant la cloche</i>
         </span>
       </a>
 

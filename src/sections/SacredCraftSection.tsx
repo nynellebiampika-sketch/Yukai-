@@ -27,7 +27,7 @@ export const SacredCraftSection: React.FC<SacredCraftSectionProps> = ({
 
       <div className="sec-head" data-rv="fade">
         <span className="k">
-          <b>03</b> — Sacred Craft
+          <b>03</b> — Artisanat Sacré
         </span>
         <span className="rule" />
         <span className="k jp">手業</span>
@@ -36,18 +36,18 @@ export const SacredCraftSection: React.FC<SacredCraftSectionProps> = ({
       <div className="cur-head">
         <h2 className="display h-sec">
           <span className="mask-line">
-            <span>Five chapters.</span>
+            <span>Cinq chapitres.</span>
           </span>
           <span className="mask-line">
-            <span>Ninety minutes.</span>
+            <span>Quatre-vingt-douze minutes.</span>
           </span>
           <span className="mask-line">
-            <span>One quiet mind.</span>
+            <span>Un esprit apaisé.</span>
           </span>
         </h2>
         <p className="body-lg" data-rv="up">
-          Each chapter is a walk, not a lecture. You arrive at the gate, climb the steps, sit with the lantern, and
-          leave with one thing worth keeping.
+          Chaque chapitre est une marche, pas une leçon magistrale. Vous arrivez à la porte, gravissez les marches, vous
+          asseyez auprès de la lanterne, et repartez avec une chose précieuse à conserver.
         </p>
       </div>
 

@@ -45,7 +45,7 @@ export const StillGardensViewer: React.FC<StillGardensViewerProps> = ({
           type="button"
           className="zen-modal-close"
           onClick={onClose}
-          aria-label="Close garden contemplation"
+          aria-label="Fermer la contemplation du jardin"
           data-cursor
         >
           <svg viewBox="0 0 16 16" fill="none" width="14" height="14">
@@ -55,7 +55,7 @@ export const StillGardensViewer: React.FC<StillGardensViewerProps> = ({
 
         <div className="flex items-center gap-3 text-xs tracking-widest text-[#aab4ad] uppercase mb-4">
           <span className="w-1.5 h-1.5 rounded-full bg-[#e0231c]" />
-          <span>Garden Field Notes</span>
+          <span>Carnets de terrain du jardin</span>
           <span className="text-[#78837c]">/</span>
           <span className="text-[#78837c] font-mono">{currentView.index}</span>
         </div>
@@ -119,7 +119,7 @@ export const StillGardensViewer: React.FC<StillGardensViewerProps> = ({
             </div>
             <div className="flex justify-between text-[10px] tracking-widest uppercase text-[#78837c] mt-2.5 px-1">
               <span>{currentView.subtitle}</span>
-              <span>LIVE THREE.JS SANCTUARY VIEW</span>
+              <span>VUE EN DIRECT DU SANCTUAIRE THREE.JS</span>
             </div>
           </div>
 
@@ -139,7 +139,7 @@ export const StillGardensViewer: React.FC<StillGardensViewerProps> = ({
             </blockquote>
 
             <div className="flex items-center gap-4 pt-4 border-t border-[rgba(223,231,224,0.08)]">
-              <span className="text-[10px] uppercase tracking-widest text-[#78837c]">Court note</span>
+              <span className="text-[10px] uppercase tracking-widest text-[#78837c]">Note de la cour</span>
               <span className="text-xs text-[#dfe7e0]">{currentView.index}</span>
             </div>
           </div>

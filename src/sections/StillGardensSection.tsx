@@ -30,7 +30,7 @@ export const StillGardensSection: React.FC<StillGardensSectionProps> = ({
 
       <div className="sec-head" data-rv="fade">
         <span className="k">
-          <b>02</b> — Still Gardens
+          <b>02</b> — Jardins Immobiles
         </span>
         <span className="rule" />
         <span className="k jp">庭園</span>
